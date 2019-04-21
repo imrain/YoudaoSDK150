@@ -3,10 +3,10 @@
     s.version      = "1.5.0"
     s.ios.deployment_target = '11.0'
     s.summary      = "有道翻译SDK"
-    s.homepage     = "https://github.com/imrain"
+    s.homepage     = "https://github.com/imrain/YoudaoSDK150"
     s.license              = { :type => "MIT", :file => "LICENSE" }
     s.author             = { "Simple" => "770345656@qq.com" }
-    s.source       = { :git => "https://github.com/imrain/YoudaoSDK150", :tag => s.version }
+    s.source       = { :git => "https://github.com/imrain/YoudaoSDK150.git", :tag => s.version }
     s.source_files  = "YoudaoSDK150/*.{h}"
     #s.resources          = "YoudaoSDK150/YoudaoSDK150.bundle"
     s.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'AdSupport','SystemConfiguration'
