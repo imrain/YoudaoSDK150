@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     #s.resources          = "YoudaoSDK150/YoudaoSDK150.bundle"
     s.frameworks = 'Foundation', 'UIKit', 'CoreTelephony', 'AdSupport','SystemConfiguration'
     #s.vendored_frameworks = 'YoudaoSDK150/YoudaoSDK.framework'
-    s.libraries = "stc++.6.0.9","z","sqlite3"
+    s.libraries = "z","sqlite3"
     s.vendored_libraries = 'YoudaoSDK150/libbase.a','YoudaoSDK150/libonline.a'
     s.requires_arc = true
 end
